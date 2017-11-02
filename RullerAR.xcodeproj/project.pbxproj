@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F338BAA11FA86BA400AFE800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338BAA01FA86BA400AFE800 /* AppDelegate.swift */; };
+		F338BAA31FA86BA400AFE800 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F338BAA21FA86BA400AFE800 /* art.scnassets */; };
+		F338BAA51FA86BA400AFE800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338BAA41FA86BA400AFE800 /* ViewController.swift */; };
+		F338BAA81FA86BA400AFE800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F338BAA61FA86BA400AFE800 /* Main.storyboard */; };
+		F338BAAA1FA86BA400AFE800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F338BAA91FA86BA400AFE800 /* Assets.xcassets */; };
+		F338BAAD1FA86BA400AFE800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F338BAAB1FA86BA400AFE800 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F338BA9D1FA86BA400AFE800 /* RullerAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RullerAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F338BAA01FA86BA400AFE800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F338BAA21FA86BA400AFE800 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F338BAA41FA86BA400AFE800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F338BAA71FA86BA400AFE800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F338BAA91FA86BA400AFE800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F338BAAC1FA86BA400AFE800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F338BAAE1FA86BA400AFE800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F338BA9A1FA86BA400AFE800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F338BA941FA86BA400AFE800 = {
+			isa = PBXGroup;
+			children = (
+				F338BA9F1FA86BA400AFE800 /* RullerAR */,
+				F338BA9E1FA86BA400AFE800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F338BA9E1FA86BA400AFE800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F338BA9D1FA86BA400AFE800 /* RullerAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F338BA9F1FA86BA400AFE800 /* RullerAR */ = {
+			isa = PBXGroup;
+			children = (
+				F338BAA01FA86BA400AFE800 /* AppDelegate.swift */,
+				F338BAA21FA86BA400AFE800 /* art.scnassets */,
+				F338BAA41FA86BA400AFE800 /* ViewController.swift */,
+				F338BAA61FA86BA400AFE800 /* Main.storyboard */,
+				F338BAA91FA86BA400AFE800 /* Assets.xcassets */,
+				F338BAAB1FA86BA400AFE800 /* LaunchScreen.storyboard */,
+				F338BAAE1FA86BA400AFE800 /* Info.plist */,
+			);
+			path = RullerAR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F338BA9C1FA86BA400AFE800 /* RullerAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F338BAB11FA86BA400AFE800 /* Build configuration list for PBXNativeTarget "RullerAR" */;
+			buildPhases = (
+				F338BA991FA86BA400AFE800 /* Sources */,
+				F338BA9A1FA86BA400AFE800 /* Frameworks */,
+				F338BA9B1FA86BA400AFE800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RullerAR;
+			productName = RullerAR;
+			productReference = F338BA9D1FA86BA400AFE800 /* RullerAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F338BA951FA86BA400AFE800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Oleh V";
+				TargetAttributes = {
+					F338BA9C1FA86BA400AFE800 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F338BA981FA86BA400AFE800 /* Build configuration list for PBXProject "RullerAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F338BA941FA86BA400AFE800;
+			productRefGroup = F338BA9E1FA86BA400AFE800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F338BA9C1FA86BA400AFE800 /* RullerAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F338BA9B1FA86BA400AFE800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F338BAA31FA86BA400AFE800 /* art.scnassets in Resources */,
+				F338BAAD1FA86BA400AFE800 /* LaunchScreen.storyboard in Resources */,
+				F338BAAA1FA86BA400AFE800 /* Assets.xcassets in Resources */,
+				F338BAA81FA86BA400AFE800 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F338BA991FA86BA400AFE800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F338BAA51FA86BA400AFE800 /* ViewController.swift in Sources */,
+				F338BAA11FA86BA400AFE800 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F338BAA61FA86BA400AFE800 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F338BAA71FA86BA400AFE800 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F338BAAB1FA86BA400AFE800 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F338BAAC1FA86BA400AFE800 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F338BAAF1FA86BA400AFE800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F338BAB01FA86BA400AFE800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F338BAB21FA86BA400AFE800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FD594T79V7;
+				INFOPLIST_FILE = RullerAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosweet.RullerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F338BAB31FA86BA400AFE800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FD594T79V7;
+				INFOPLIST_FILE = RullerAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosweet.RullerAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F338BA981FA86BA400AFE800 /* Build configuration list for PBXProject "RullerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F338BAAF1FA86BA400AFE800 /* Debug */,
+				F338BAB01FA86BA400AFE800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F338BAB11FA86BA400AFE800 /* Build configuration list for PBXNativeTarget "RullerAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F338BAB21FA86BA400AFE800 /* Debug */,
+				F338BAB31FA86BA400AFE800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F338BA951FA86BA400AFE800 /* Project object */;
+}
